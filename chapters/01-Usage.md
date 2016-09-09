@@ -34,7 +34,8 @@ def solution1(a):
 # Solution 2: Blazing fast.
 def solution2(a):
   n = len(a)
-  max1, max2 = min(a[0], a[1]), max(a[0], a[1])
+  max1 = min(a[0], a[1])
+  max2 = max(a[0], a[1])
   for i in range(2, n):
     if a[i] > max1:
       if max1 > max2:
