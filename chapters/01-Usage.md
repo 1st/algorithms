@@ -1,4 +1,4 @@
-# Usage of Algorithms
+# `01` Usage of Algorithms
 
 To learn something - you need to understand why you need this and where you can apply this knowledge.
 
