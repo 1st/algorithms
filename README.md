@@ -12,13 +12,13 @@ In this book we will provide all samples of code in **python**.
 
 ## Table of contents
 
-- [Where can I use this?](chapters/01-Usage.md)
-- [Program Complexity](chapters/02-Complexity.md)
-- Data Structures
+- `01` [Where can I use this?](chapters/01-Usage.md)
+- `02` [Program Complexity](chapters/02-Complexity.md)
+- `03` Data Structures
   - Array (list)
   - Sets
   - Hash table (dict)
-- Recursion
-- Sorting and searching data sets
-- Trees
-- Graphs
+- `04` Recursion
+- `05` Sorting and searching data sets
+- `06` Trees
+- `07` Graphs
