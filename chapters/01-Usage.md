@@ -55,4 +55,4 @@ It's because number of computations that computer should do to calculate result 
 implementation of the functions.
 
 How to understand if one program is more slow than another?
-Read our next article [Program Complexity](02-Complexity) to get familiar with it.
+Read our next article [Program Complexity](02-Complexity.md) to get familiar with it.
