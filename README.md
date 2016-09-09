@@ -12,7 +12,7 @@ In this book we will provide all samples of code in **python**.
 
 ## Table of contents
 
-- [Where can I use this?](chapters/01-Usage)
+- [Where can I use this?](chapters/01-Usage.md)
 - Code Complexity (Big-O)
 - Data Structures
   - Array (list)
