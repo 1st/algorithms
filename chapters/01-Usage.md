@@ -34,6 +34,12 @@ def solution1(a):
 # Solution 2: Blazing fast.
 def solution2(a):
   n = len(a)
+  # If we have an empty list.
+  if n == 0:
+    return 0
+  # If it's only one element - return it.
+  if n < 2:
+    return a[0]
   max1 = min(a[0], a[1])
   max2 = max(a[0], a[1])
   for i in range(2, n):
