@@ -16,6 +16,7 @@ In this book we will provide all samples of code in **python**.
 - Code Complexity (Big-O)
 - Data Structures
   - Array (list)
+  - Sets
   - Hash table (dict)
 - Recursion
 - Sorting and searching data sets
