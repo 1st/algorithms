@@ -13,7 +13,7 @@ In this book we will provide all samples of code in **python**.
 ## Table of contents
 
 - [Where can I use this?](chapters/01-Usage.md)
-- [Program Complexity](chapters/02-Complexity)
+- [Program Complexity](chapters/02-Complexity.md)
 - Data Structures
   - Array (list)
   - Sets
