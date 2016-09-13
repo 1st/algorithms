@@ -12,6 +12,7 @@ In this book we will provide all samples of code in **python**.
 
 ## Table of contents
 
+- `00` [Basics of algorithms](chapters/00-Basics.md)
 - `01` [Where can I use this?](chapters/01-Usage.md)
 - `02` [Program Complexity](chapters/02-Complexity.md)
 - `03` Data Structures
@@ -22,3 +23,8 @@ In this book we will provide all samples of code in **python**.
 - `05` Sorting and searching data sets
 - `06` Trees
 - `07` Graphs
+
+## Useful links
+
+- [Problem Solving with Algorithms and Data Structures using Python](http://interactivepython.org). From basics to more interesting topics. *Our book is based partially on their work.*
+- [Hacker Rank](hackerrank.com). You will find a lot of interesting tasks that will help you to be prepared to an interview.
