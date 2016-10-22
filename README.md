@@ -11,7 +11,7 @@ In this book we will provide all samples of code in **python**.
 - `00` [Basics of algorithms](chapters/00-Basics.md)
 - `01` [Where can I use this?](chapters/01-Usage.md)
 - `02` [Program Complexity](chapters/02-Complexity.md)
-- `03` Data Structures
+- `03` [Data Structures](chapters/02-Data-Structures.md)
   - Array (list)
   - Sets
   - Hash table (dict)
