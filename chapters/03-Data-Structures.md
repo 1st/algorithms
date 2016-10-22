@@ -9,7 +9,7 @@ For this purpose we can use data structures, that internally contains simple dat
 For example, we can have data strcutre to describe rectangle - we need to have heigh
 and width to work with this object more comfortable. It's why we need data structures - to
 make our final task more easy to understand and solve *(we don't need to remember all internals of
-each complex data strucure).
+each complex data strucure)*.
 
 In many cases we use `class` as a template for our data structure. But class also adds ability
 to define operations that are possible to perform with the defined data type. For example, if we
