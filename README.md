@@ -24,4 +24,4 @@ In this book we will provide all samples of code in **python**.
 
 - [Problem Solving with Algorithms and Data Structures using Python](http://interactivepython.org). From basics to more interesting topics. Good for a very fast preparation.*
 - [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms) by Thomas Cormen. Book for deep understanding of algorithms and data structures.
-- [Hacker Rank](hackerrank.com). You will find a lot of interesting tasks that will help you to be prepared to an interview.
+- [Hacker Rank](http://hackerrank.com). You will find a lot of interesting tasks that will help you to be prepared to an interview.
