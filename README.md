@@ -22,7 +22,7 @@ In this book we will provide all samples of code in **python**.
 
 ## Useful links
 
-- Read my set of articles with real questons and answers that will help you to be prepared for the [next interview](https://github.com/1st/interview)
+- Read my set of articles with real questions and answers that will help you to be prepared for the [next interview](https://github.com/1st/interview)
 - [Problem Solving with Algorithms and Data Structures using Python](http://interactivepython.org). From basics to more interesting topics. Good for a very fast preparation.*
 - [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms) by Thomas Cormen. Book for deep understanding of algorithms and data structures.
 - [Hacker Rank](http://hackerrank.com). You will find a lot of interesting tasks that will help you to be prepared to an interview.
