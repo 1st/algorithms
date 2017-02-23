@@ -20,6 +20,9 @@ In this book we will provide all samples of code in **python**.
 - `06` Trees
 - `07` Graphs
 
+**Other useful topics:**
+- `01` [How to count O(N) from 1+2+3+4...N](topics/01-BigOFrom1234N.md)
+
 ## Useful links
 
 - Read my set of articles with real questions and answers that will help you to be prepared for the [next interview](https://github.com/1st/interview)
