@@ -21,7 +21,7 @@ In this book we will provide all samples of code in **python**.
 - `07` Graphs
 
 **Other useful topics:**
-- `01` [How to count O(N) from 1+2+3+4...N](topics/01-BigOFrom1234N.md)
+- `01` [How to count O(N) from 1+2+3+4...N](topics/01-BigOFor1234N.md)
 
 ## Useful links
 
