@@ -55,4 +55,4 @@ Looks like computational complexity is `n2 - n`. But it's wrong. For `n = 1` it'
 Correct answer is `O((n2 + n)/2)` -> `O(n2/2 + n/2)` -> `O(n2)`,
 because we count only the most valuable part of the expression that grows faster than other and ignore all constants *(in our case it's 1/2)*.
 
-Detailed explanation ca be found in the [wikipedia](https://en.wikipedia.org/wiki/1_%2B_2_%2B_3_%2B_4_%2B_⋯).
+Detailed explanation can be found in the [wikipedia](https://en.wikipedia.org/wiki/1_%2B_2_%2B_3_%2B_4_%2B_⋯).
