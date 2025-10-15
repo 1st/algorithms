@@ -53,6 +53,8 @@ This repository is a lightweight book for refreshing core concepts ahead of tech
 - [04 · Greedy Strategies](03.%20Algorithmic%20Techniques/04-greedy-strategies.md)
 - [05 · Dynamic Programming](03.%20Algorithmic%20Techniques/05-dynamic-programming.md)
 - [06 · Graph Traversal and Pathfinding](03.%20Algorithmic%20Techniques/06-graph-traversal-and-pathfinding.md)
+- [07 · Canonical Problem Walkthroughs](03.%20Algorithmic%20Techniques/07-canonical-problem-walkthroughs.md)
+- [08 · Review Checklists and Quick Guides](03.%20Algorithmic%20Techniques/08-review-checklists-and-guides.md)
 
 ### 04. Interview Practice Playbook
 - _Planned_
