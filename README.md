@@ -57,7 +57,11 @@ This repository is a lightweight book for refreshing core concepts ahead of tech
 - [08 · Review Checklists and Quick Guides](03.%20Algorithmic%20Techniques/08-review-checklists-and-guides.md)
 
 ### 04. Interview Practice Playbook
-- _Planned_
+- [01 · Problem-Solving Frameworks and Communication](04.%20Interview%20Practice%20Playbook/01-problem-solving-frameworks.md)
+- [02 · Progressive Practice Plan](04.%20Interview%20Practice%20Playbook/02-progressive-practice-plan.md)
+- [03 · Post-Interview Retrospectives](04.%20Interview%20Practice%20Playbook/03-post-interview-retrospectives.md)
+
+_Use the playbook to prepare before, during, and after interview loops: follow the Solve→Code→Validate framework, schedule practice with the four-week plan, and record learnings with the retrospective template._
 
 ### 05. Appendices
 - _Planned_
