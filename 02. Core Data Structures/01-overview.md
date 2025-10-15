@@ -45,7 +45,7 @@ Planned coverage includes linear structures, hash-based containers, tree variant
 | Hash tables / Sets | Lookup/insert/delete `O(1)` average | Fast membership, flexible keys | Need ordering/range queries → trees or skip lists; memory tight → arrays |
 | Trees (BST, AVL, RB) | Lookup/insert/delete `O(log n)` | Sorted iteration, range queries, balanced guarantees | Only min/max needed → heaps; dataset lives on disk → B-trees |
 | Tries | Insert/search `O(L)` | Efficient prefix queries, lexical ordering | Sparse prefixes → hash tables; huge alphabets → compressed trie |
-| Graph representations | Adj. list: `O(|V| + |E|)` storage, adjacency matrix: `O(|V|^2)` | Tune to sparsity/density, friendly to traversal algorithms | Need streaming edge access → edge list; bitset for dense boolean graphs |
+| Graph representations | Adj. list: `O([V] + [E])` storage, adjacency matrix: `O([V]^2)` | Tune to sparsity/density, friendly to traversal algorithms | Need streaming edge access → edge list; bitset for dense boolean graphs |
 | Heaps / Priority queues | Push/pop `O(log n)`, peek `O(1)` | Fast priority scheduling, top-k queries | Need decrease-key heavy workloads → pairing/Fibonacci heap; ordered iteration → trees |
 | Union-Find | `find/union` ≈ `O(1)` amortised | Dynamic connectivity, cycle detection | Need path queries → trees/graphs; frequent rollbacks → DSU with undo |
 | Skip lists | Search/insert/delete `O(log n)` expected | Ordered set/map with simple implementation | Worst-case guarantees required → balanced trees; memory-constrained → arrays |
