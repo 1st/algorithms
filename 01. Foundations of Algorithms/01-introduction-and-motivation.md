@@ -28,6 +28,3 @@ Climbing this ladder hides details, but the details still influence performance.
 - Can you restate a problem in your own words before jumping to code?
 - Do you identify the input/output shape, constraints, and success criteria?
 - Are you comfortable tracing a solution with pen and paper to validate it?
-
-## Next steps
-Continue with [02 · How Computers Execute Code](02-how-computers-execute-code.md) to see how abstractions translate into hardware behaviour, then move on to [03 · Where Algorithms Show Up](03-where-algorithms-show-up.md) for real-world scenarios.
