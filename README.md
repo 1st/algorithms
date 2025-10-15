@@ -47,7 +47,12 @@ This repository is a lightweight book for refreshing core concepts ahead of tech
   - [22 · LRU Caches](02.%20Core%20Data%20Structures/22-lru-caches.md)
 
 ### 03. Algorithmic Techniques
-- _Planned_
+- [01 · Recursion and Backtracking](03.%20Algorithmic%20Techniques/01-recursion-and-backtracking.md)
+- [02 · Divide and Conquer](03.%20Algorithmic%20Techniques/02-divide-and-conquer.md)
+- [03 · Sorting and Searching](03.%20Algorithmic%20Techniques/03-sorting-and-searching.md)
+- [04 · Greedy Strategies](03.%20Algorithmic%20Techniques/04-greedy-strategies.md)
+- [05 · Dynamic Programming](03.%20Algorithmic%20Techniques/05-dynamic-programming.md)
+- [06 · Graph Traversal and Pathfinding](03.%20Algorithmic%20Techniques/06-graph-traversal-and-pathfinding.md)
 
 ### 04. Interview Practice Playbook
 - _Planned_
