@@ -38,9 +38,8 @@ This repository is a lightweight book for refreshing core concepts ahead of tech
   - [15 · Graph Traversal Patterns](02.%20Core%20Data%20Structures/15-graph-traversal-patterns.md)
   - [16 · Weighted Graphs and Shortest Paths](02.%20Core%20Data%20Structures/16-weighted-graphs-and-shortest-paths.md)
 - Heaps & Priority Queues
-  - Binary heaps — _planned_
-  - Heap variants (binomial, Fibonacci) — _planned_
-  - Priority queue adapters — _planned_
+  - [17 · Binary Heaps](02.%20Core%20Data%20Structures/17-binary-heaps.md)
+  - [18 · Heap Variants and Priority Queues](02.%20Core%20Data%20Structures/18-heap-variants-and-priority-queues.md)
 - Advanced Topics
   - Union-find / disjoint set — _planned_
   - Skip list — _planned_
