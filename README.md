@@ -34,9 +34,9 @@ This repository is a lightweight book for refreshing core concepts ahead of tech
   - [12 · Tries and Prefix Trees](02.%20Core%20Data%20Structures/12-tries-and-prefix-trees.md)
   - [13 · B-Trees and Variants](02.%20Core%20Data%20Structures/13-b-trees-and-variants.md)
 - Graphs
-  - Graph representations — _planned_
-  - Traversal patterns (BFS/DFS) — _planned_
-  - Weighted graphs & shortest paths — _planned_
+  - [14 · Graph Representations](02.%20Core%20Data%20Structures/14-graph-representations.md)
+  - [15 · Graph Traversal Patterns](02.%20Core%20Data%20Structures/15-graph-traversal-patterns.md)
+  - [16 · Weighted Graphs and Shortest Paths](02.%20Core%20Data%20Structures/16-weighted-graphs-and-shortest-paths.md)
 - Heaps & Priority Queues
   - Binary heaps — _planned_
   - Heap variants (binomial, Fibonacci) — _planned_
