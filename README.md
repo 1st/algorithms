@@ -23,9 +23,10 @@ This repository is a lightweight book for refreshing core concepts ahead of tech
   - [03 · Linked Lists](02.%20Core%20Data%20Structures/03-linked-lists.md)
   - [04 · Stacks and Queues](02.%20Core%20Data%20Structures/04-stacks-and-queues.md)
 - Hash-Based Structures
-  - Hash tables & maps — _planned_
-  - Sets — _planned_
-  - Collision strategies — _planned_
+  - [05 · Hash Tables and Maps](02.%20Core%20Data%20Structures/05-hash-tables-and-maps.md)
+  - [06 · Sets and Hashing Patterns](02.%20Core%20Data%20Structures/06-sets-and-hashing-patterns.md)
+  - [07 · Hash Collision Strategies](02.%20Core%20Data%20Structures/07-hash-collision-strategies.md)
+  - [08 · Bloom Filter Primer](02.%20Core%20Data%20Structures/08-bloom-filter-primer.md)
 - Trees
   - Binary trees — _planned_
   - Binary search trees — _planned_
