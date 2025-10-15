@@ -15,6 +15,8 @@ Dynamic programming (DP) solves problems by combining solutions to overlapping s
 4. **Choose implementation**: top-down memoisation or bottom-up table.
 5. **Optimise**: reduce space/time via rolling arrays, bitmasks, etc.
 
+> **Interview tip:** Say your state out loud in a sentence (“`dp[i][j]` = min edits for prefixes of length `i` and `j`”) before coding—interviewers are listening for that clarity.
+
 ## Example: Fibonacci (memoised vs. tabulated)
 
 ```python
@@ -65,6 +67,8 @@ def knapsack(weights: list[int], values: list[int], capacity: int) -> int:
 - Exponential state space; ensure states remain manageable.
 - Memory blow-up with large DP tables; compress dimensions when possible.
 - Off-by-one errors in table indices; define inclusive/exclusive boundaries.
+
+> **Common pitfall:** Mixing up iteration order. If transitions depend on previous row, mention you’ll iterate `i` outer, `j` inner—and test with a small example to confirm.
 
 ## Interview checkpoints
 - Express state and recurrence clearly before coding.

@@ -58,10 +58,14 @@ Using tuples (immutable, hashable) as keys allows grouping by signature efficien
 - Keys map to unique values (dictionaries) or membership checks (sets, covered separately).
 - Many interview problems reduce to counting occurrences or caching results—hash tables shine here.
 
+> **Interview tip:** Say “average-case `O(1)` because load factor stays below ~0.75; worst-case `O(n)` if all keys collide.” Acknowledging both cases shows balanced understanding.
+
 ## When to look elsewhere
 - Require sorted iteration → use balanced trees or heaps.
 - Need range queries → consider ordered maps or segment trees.
 - Keys must support full-text search or prefix matching → tries.
+
+> **Common pitfall:** Mutating an object used as a dictionary key; remind the interviewer that hash and equality must remain stable or lookups break.
 
 ## Interview checkpoints
 - Explain how collisions are handled and the impact on complexity.

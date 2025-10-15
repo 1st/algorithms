@@ -77,10 +77,14 @@ def delete(node: Optional[BinaryTreeNode[int]], key: int) -> Optional[BinaryTree
 - Require predecessor/successor queries (e.g., floor/ceil operations).
 - Need to maintain dynamic sets/subsets with range queries.
 
+> **Interview tip:** Draw a quick diagram showing left < root < right when explaining BST invariants—visuals demonstrate clarity faster than words.
+
 ## When to look elsewhere
 - Strict `O(1)` lookups matter more than ordering → hash tables.
 - Heavy range queries or segment operations → augmented trees/fenwick trees.
 - Frequent min/max retrieval without ordering → heaps.
+
+> **Common pitfall:** Forgetting to handle duplicate keys. Clarify policy (“I’ll store duplicates on the right subtree” or “I’ll keep a count field”) before coding.
 
 ## Interview checkpoints
 - Explain delete scenarios clearly; many candidates struggle with the two-child case.

@@ -8,6 +8,8 @@ Interview problems frequently lean on lightweight math—logarithms, exponent ru
 - Apply basic probability tools (independence, expectation, union bound) during algorithm analysis
 - Recall growth hierarchies (polynomial vs. exponential vs. factorial) when comparing complexities
 
+> **Interview tip:** When stuck on complexity classification, articulate the dominant term aloud (“This loop runs `n` times, inner loop shrinks…”)—explicit narration earns partial credit even before you reach a final Big-O.
+
 ## Logarithms at a glance
 - Definition: `log_b(x)` answers “to what power must `b` be raised to get `x`?”
 - Change of base: `log_b(x) = log_k(x) / log_k(b)`—swap bases using natural or base-2 logs.
@@ -38,6 +40,8 @@ Interview problems frequently lean on lightweight math—logarithms, exponent ru
 - Counting distinct paths, pairings, or subsets.
 - Bounding brute-force search sizes before optimising.
 - Estimating collision likelihood in hashing problems.
+
+> **Common pitfall:** Mixing up permutations and combinations—state whether order matters before writing a formula; interviewers listen for that signal.
 
 ## Probability snippets
 - **Independence:** `P(A ∩ B) = P(A) * P(B)`.
