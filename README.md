@@ -28,11 +28,11 @@ This repository is a lightweight book for refreshing core concepts ahead of tech
   - [07 · Hash Collision Strategies](02.%20Core%20Data%20Structures/07-hash-collision-strategies.md)
   - [08 · Bloom Filter Primer](02.%20Core%20Data%20Structures/08-bloom-filter-primer.md)
 - Trees
-  - Binary trees — _planned_
-  - Binary search trees — _planned_
-  - Balanced trees (AVL/Red-Black) — _planned_
-  - Tries — _planned_
-  - B-trees — _planned_
+  - [09 · Binary Trees Fundamentals](02.%20Core%20Data%20Structures/09-binary-trees-fundamentals.md)
+  - [10 · Binary Search Trees](02.%20Core%20Data%20Structures/10-binary-search-trees.md)
+  - [11 · Balanced Search Trees](02.%20Core%20Data%20Structures/11-balanced-search-trees.md)
+  - [12 · Tries and Prefix Trees](02.%20Core%20Data%20Structures/12-tries-and-prefix-trees.md)
+  - [13 · B-Trees and Variants](02.%20Core%20Data%20Structures/13-b-trees-and-variants.md)
 - Graphs
   - Graph representations — _planned_
   - Traversal patterns (BFS/DFS) — _planned_
