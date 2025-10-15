@@ -64,12 +64,34 @@ This repository is a lightweight book for refreshing core concepts ahead of tech
 _Use the playbook to prepare before, during, and after interview loops: follow the Solve→Code→Validate framework, schedule practice with the four-week plan, and record learnings with the retrospective template._
 
 ### 05. Appendices
-- _Planned_
+- [01 · Glossary of Terms and Notation](05.%20Appendices/01-glossary.md)
+- [02 · Big-O Cheat Sheet](05.%20Appendices/02-big-o-cheat-sheet.md)
+- Resources & Tools — _planned_
 
 ## Contributing
 Before adding or editing content, read [AGENTS.md](AGENTS.md) for the project layout, writing conventions, and review checklist.
 
 ## Useful resources
-- [Interview prep companion repo](https://github.com/1st/interview) — real questions and answers to pair with this guide.
-- [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms) — comprehensive reference (CLRS).
-- [HackerRank](https://hackerrank.com) — practice problems to apply what you learn here.
+
+**Guides & books**
+- [Interview prep companion repo](https://github.com/1st/interview) — curated interview Q&A by the original author.
+- [Introduction to Algorithms (CLRS)](https://mitpress.mit.edu/books/introduction-algorithms) — definitive theory reference.
+- [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms) — visual explanation of core patterns.
+- [Elements of Programming Interviews](https://elementsofprogramminginterviews.com/) — heavy practice book with code templates.
+
+**Courses & lectures**
+- [MIT OpenCourseWare 6.006/6.046](https://ocw.mit.edu) — in-depth algorithm lectures with problem sets.
+- [Stanford CS106B/CS161](https://see.stanford.edu/Course) — data structures & algorithms in practice.
+- [Coursera Algorithms Specialization](https://www.coursera.org/specializations/algorithms) — structured online curriculum by Tim Roughgarden.
+
+**Practice platforms**
+- [LeetCode](https://leetcode.com) — broad problem set with company tags and discussion forums.
+- [HackerRank](https://hackerrank.com) — timed challenges and interview preparation kits.
+- [Codeforces](https://codeforces.com) — competitive programming contests for speed.
+- [interviewing.io](https://interviewing.io) — live mock interviews with feedback.
+
+**Tools & references**
+- [VisuAlgo](https://visualgo.net) — interactive visualisations of data structures/algorithms.
+- [Big-O Cheat Sheet](05.%20Appendices/02-big-o-cheat-sheet.md) — this repo’s quick reference plus external [bigocheatsheet.com](http://bigocheatsheet.com).
+- [Python `collections` docs](https://docs.python.org/3/library/collections.html) — review built-in structures (`deque`, `Counter`, `defaultdict`).
+- [System design primer](https://github.com/donnemartin/system-design-primer) — complements the interview playbook for large-scale design prep.
