@@ -40,7 +40,7 @@ Curated references for deepening your algorithms preparation. Bookmark this appe
 - **VisuAlgo** — interactive visualisations of data structures and algorithms.<br>
   <https://visualgo.net>
 - **Big-O Cheat Sheet (repo)** — quick reference in this project plus external comparison charts.<br>
-  `05. Appendices/02-big-o-cheat-sheet.md` | <http://bigocheatsheet.com>
+  [`05. Appendices/02-big-o-cheat-sheet.md`](../05.%20Appendices/02-big-o-cheat-sheet.md) | <http://bigocheatsheet.com>
 - **Python `collections` docs** — refresh built-in containers (`deque`, `Counter`, `defaultdict`).<br>
   <https://docs.python.org/3/library/collections.html>
 - **CP-Algorithms** — encyclopaedia of competitive programming techniques.<br>
