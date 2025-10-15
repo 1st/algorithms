@@ -1,31 +1,30 @@
 # Algorithms and Data Structures
 
-**Algorithm** is a self-contained step-by-step set of operations to be performed. Algorithms perform calculation, data processing, and/or automated reasoning tasks. *Other definition is:* An algorithm is a sequence of instructions or a set of rules that are followed to complete a task.
+This repository is a lightweight book for refreshing core concepts ahead of technical interviews. Each chapter focuses on a single idea, demonstrates it with Python, and closes with interview-ready checkpoints.
 
-In this small book you will find very concentrated and valuable information about algorithms and data structures. Knowing this information will help you to get the best job on the global market - you can pass interview to Google, Apple, Facebook, Microsoft, Amazon, and any other top company. Becuse **algorithms - is the main topic for all serious interviews**.
+## How to use this guide
+- **Warm up** with Part 01 to rebuild intuition before diving into problem drills.
+- **Refer back** to the data-structure and appendix chapters when you need a quick reminder during practice.
+- **Take notes** inside each chapter—treat this as a living workbook tailored to your learning style.
 
-In this book we will provide all samples of code in **python**.
+## Structure
+- **01. Foundations of Algorithms**
+  - [01 · Introduction and Motivation](01.%20Foundations%20of%20Algorithms/01-introduction-and-motivation.md)
+  - [02 · How Computers Execute Code](01.%20Foundations%20of%20Algorithms/02-how-computers-execute-code.md)
+  - [03 · Where Algorithms Show Up](01.%20Foundations%20of%20Algorithms/03-where-algorithms-show-up.md)
+  - [04 · Complexity Basics](01.%20Foundations%20of%20Algorithms/04-complexity-basics.md)
+  - [05 · Math Toolkit for Algorithms](01.%20Foundations%20of%20Algorithms/05-math-toolkit.md)
+- **02. Core Data Structures**
+  - [01 · Data Structures Overview](02.%20Core%20Data%20Structures/01-overview.md)
+  - more deep dives coming soon (arrays & lists, linked lists, stacks & queues, hash tables, trees, heaps, graphs)
+- **03. Algorithmic Techniques** — _planned_
+- **04. Interview Practice Playbook** — _planned_
+- **05. Appendices** — _planned_
 
-## Table of contents
+## Contributing
+Before adding or editing content, read [AGENTS.md](AGENTS.md) for the project layout, writing conventions, and review checklist.
 
-- `00` [Basics of algorithms](chapters/00-Basics.md)
-- `01` [Where can I use this?](chapters/01-Usage.md)
-- `02` [Program Complexity](chapters/02-Complexity.md)
-- `03` [Data Structures](chapters/03-Data-Structures.md)
-  - Array (list)
-  - Sets
-  - Hash table (dict)
-- `04` Recursion
-- `05` Sorting and searching data sets
-- `06` Trees
-- `07` Graphs
-
-**Other useful topics:**
-- `01` [How to count O(N) from 1+2+3+4...N](topics/01-BigOFor1234N.md)
-
-## Useful links
-
-- Read my set of articles with real questions and answers that will help you to be prepared for the [next interview](https://github.com/1st/interview)
-- [Problem Solving with Algorithms and Data Structures using Python](http://interactivepython.org). From basics to more interesting topics. Good for a very fast preparation.*
-- [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms) by Thomas Cormen. Book for deep understanding of algorithms and data structures.
-- [Hacker Rank](http://hackerrank.com). You will find a lot of interesting tasks that will help you to be prepared to an interview.
+## Useful resources
+- [Interview prep companion repo](https://github.com/1st/interview) — real questions and answers to pair with this guide.
+- [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms) — comprehensive reference (CLRS).
+- [HackerRank](https://hackerrank.com) — practice problems to apply what you learn here.
