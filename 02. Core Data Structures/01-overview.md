@@ -32,3 +32,5 @@ These standard types are enough to express most interview solutions concisely. W
 - State the operations and complexity guarantees you expect before coding.
 - Mention memory overhead when it affects feasibility (e.g., dense adjacency matrix vs. sparse list).
 - Keep a comparison table handy so you can justify switching structures under pressure.
+
+Planned coverage includes linear structures, hash-based containers, tree variants, graph representations, heaps, and advanced structures. Check the README data-structure outline for the up-to-date roadmap.

@@ -16,12 +16,12 @@ This repository is a lightweight book for refreshing core concepts ahead of tech
 - [04 · Complexity Basics](01.%20Foundations%20of%20Algorithms/04-complexity-basics.md)
 - [05 · Math Toolkit for Algorithms](01.%20Foundations%20of%20Algorithms/05-math-toolkit.md)
 
-### 02. Data Structures
+### 02. Core Data Structures
 - [01 · Data Structures Overview](02.%20Core%20Data%20Structures/01-overview.md)
 - Linear Structures
-  - Arrays & dynamic arrays — _planned_
-  - Linked lists — _planned_
-  - Stacks & queues — _planned_
+  - [02 · Arrays and Dynamic Arrays](02.%20Core%20Data%20Structures/02-arrays-and-dynamic-arrays.md)
+  - [03 · Linked Lists](02.%20Core%20Data%20Structures/03-linked-lists.md)
+  - [04 · Stacks and Queues](02.%20Core%20Data%20Structures/04-stacks-and-queues.md)
 - Hash-Based Structures
   - Hash tables & maps — _planned_
   - Sets — _planned_
