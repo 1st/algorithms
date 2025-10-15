@@ -8,18 +8,52 @@ This repository is a lightweight book for refreshing core concepts ahead of tech
 - **Take notes** inside each chapter—treat this as a living workbook tailored to your learning style.
 
 ## Structure
-- **01. Foundations of Algorithms**
-  - [01 · Introduction and Motivation](01.%20Foundations%20of%20Algorithms/01-introduction-and-motivation.md)
-  - [02 · How Computers Execute Code](01.%20Foundations%20of%20Algorithms/02-how-computers-execute-code.md)
-  - [03 · Where Algorithms Show Up](01.%20Foundations%20of%20Algorithms/03-where-algorithms-show-up.md)
-  - [04 · Complexity Basics](01.%20Foundations%20of%20Algorithms/04-complexity-basics.md)
-  - [05 · Math Toolkit for Algorithms](01.%20Foundations%20of%20Algorithms/05-math-toolkit.md)
-- **02. Core Data Structures**
-  - [01 · Data Structures Overview](02.%20Core%20Data%20Structures/01-overview.md)
-  - more deep dives coming soon (arrays & lists, linked lists, stacks & queues, hash tables, trees, heaps, graphs)
-- **03. Algorithmic Techniques** — _planned_
-- **04. Interview Practice Playbook** — _planned_
-- **05. Appendices** — _planned_
+
+### 01. Foundations of Algorithms
+- [01 · Introduction and Motivation](01.%20Foundations%20of%20Algorithms/01-introduction-and-motivation.md)
+- [02 · How Computers Execute Code](01.%20Foundations%20of%20Algorithms/02-how-computers-execute-code.md)
+- [03 · Where Algorithms Show Up](01.%20Foundations%20of%20Algorithms/03-where-algorithms-show-up.md)
+- [04 · Complexity Basics](01.%20Foundations%20of%20Algorithms/04-complexity-basics.md)
+- [05 · Math Toolkit for Algorithms](01.%20Foundations%20of%20Algorithms/05-math-toolkit.md)
+
+### 02. Data Structures
+- [01 · Data Structures Overview](02.%20Core%20Data%20Structures/01-overview.md)
+- Linear Structures
+  - Arrays & dynamic arrays — _planned_
+  - Linked lists — _planned_
+  - Stacks & queues — _planned_
+- Hash-Based Structures
+  - Hash tables & maps — _planned_
+  - Sets — _planned_
+  - Collision strategies — _planned_
+- Trees
+  - Binary trees — _planned_
+  - Binary search trees — _planned_
+  - Balanced trees (AVL/Red-Black) — _planned_
+  - Tries — _planned_
+  - B-trees — _planned_
+- Graphs
+  - Graph representations — _planned_
+  - Traversal patterns (BFS/DFS) — _planned_
+  - Weighted graphs & shortest paths — _planned_
+- Heaps & Priority Queues
+  - Binary heaps — _planned_
+  - Heap variants (binomial, Fibonacci) — _planned_
+  - Priority queue adapters — _planned_
+- Advanced Topics
+  - Union-find / disjoint set — _planned_
+  - Skip list — _planned_
+  - Bloom filter — _planned_
+  - LRU caches — _planned_
+
+### 03. Algorithmic Techniques
+- _Planned_
+
+### 04. Interview Practice Playbook
+- _Planned_
+
+### 05. Appendices
+- _Planned_
 
 ## Contributing
 Before adding or editing content, read [AGENTS.md](AGENTS.md) for the project layout, writing conventions, and review checklist.
