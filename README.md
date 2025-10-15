@@ -41,10 +41,10 @@ This repository is a lightweight book for refreshing core concepts ahead of tech
   - [17 · Binary Heaps](02.%20Core%20Data%20Structures/17-binary-heaps.md)
   - [18 · Heap Variants and Priority Queues](02.%20Core%20Data%20Structures/18-heap-variants-and-priority-queues.md)
 - Advanced Topics
-  - Union-find / disjoint set — _planned_
-  - Skip list — _planned_
-  - Bloom filter — _planned_
-  - LRU caches — _planned_
+  - [19 · Union-Find (Disjoint Set Union)](02.%20Core%20Data%20Structures/19-union-find-disjoint-set.md)
+  - [20 · Skip Lists](02.%20Core%20Data%20Structures/20-skip-lists.md)
+  - [21 · Bloom Filter Deep Dive](02.%20Core%20Data%20Structures/21-bloom-filter-deep-dive.md)
+  - [22 · LRU Caches](02.%20Core%20Data%20Structures/22-lru-caches.md)
 
 ### 03. Algorithmic Techniques
 - _Planned_
