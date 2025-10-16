@@ -7,6 +7,7 @@ This companion chapter maps each technique in Part III to representative inter
 ### Generate Balanced Parentheses
 - **Pattern:** depth-first construction with constraints (`open_count ≤ n`, `close_count ≤ open_count`).
 - **Pitfalls:** forget to enforce balance constraint before recursing.
+- **Why this technique:** The branching decisions map cleanly to placing `(` or `)`; pruning invalid prefixes keeps the exponential search manageable.
 
 ```python
 def generate_parentheses(n: int) -> list[str]:
@@ -36,6 +37,7 @@ def generate_parentheses(n: int) -> list[str]:
 ### Maximum Subarray (Kadane via Divide & Conquer)
 - **Pattern:** split array; answer is max of left, right, or crossing subarray.
 - **Pitfalls:** miscompute crossing sum with off-by-one errors.
+- **Why this technique:** The problem breaks naturally into halves, and the crossing case captures interactions between them.
 
 ```python
 def max_subarray(values: list[int]) -> int:
@@ -65,6 +67,7 @@ def max_subarray(values: list[int]) -> int:
 ### Search in Rotated Sorted Array
 - **Pattern:** modified binary search; determine which half is sorted each step.
 - **Pitfalls:** ignoring duplicates (if allowed) or mis-handling equal pivots.
+- **Why this technique:** Each iteration discards half the array once you identify the sorted side, preserving `O(log n)` search time.
 
 ```python
 def search_rotated(nums: list[int], target: int) -> int:
@@ -93,6 +96,7 @@ def search_rotated(nums: list[int], target: int) -> int:
 ### Minimum Number of Coins (Canonical Coin Systems)
 - **Pattern:** sort coins descending; take as many as possible of each denomination.
 - **Pitfalls:** greedy only optimal for canonical systems (e.g., US coins). Provide counterexample awareness.
+- **Why this technique:** Canonical coin systems satisfy the greedy-choice property, so local optimum equals global optimum.
 
 ```python
 def min_coins(amount: int, coins: list[int]) -> int:
@@ -116,6 +120,7 @@ def min_coins(amount: int, coins: list[int]) -> int:
 ### Edit Distance (Levenshtein)
 - **Pattern:** 2D DP where `dp[i][j]` = minimum edits to convert `word1[:i]` to `word2[:j]`.
 - **Pitfalls:** forgetting to initialise first row/column for insert/delete costs.
+- **Why this technique:** The problem’s optimal substructure depends on prefixes, making a grid DP the natural fit.
 
 ```python
 def edit_distance(a: str, b: str) -> int:
@@ -138,13 +143,14 @@ def edit_distance(a: str, b: str) -> int:
     return dp[m][n]
 ```
 
-- **Complexity:** `O(mn)` time and space; optimisable to `O(min(m, n))` space.
+- **Complexity:** `O(mn)` time and space; optimizable to `O(min(m, n))` space.
 
 ## Graph Traversal & Pathfinding
 
 ### Word Ladder (BFS on implicit graph)
 - **Pattern:** BFS on words, edges connect words differing by one letter.
 - **Pitfalls:** generating neighbours inefficiently; precompute wildcard buckets.
+- **Why this technique:** BFS guarantees the first time you reach the target word you used the minimum number of transformations.
 
 ```python
 from collections import defaultdict, deque

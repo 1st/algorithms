@@ -1,6 +1,6 @@
 # 01 · Data Structures Overview
 
-Data structures are the containers that give your algorithms teeth. They organise data so that the operations you care about—lookup, insert, delete, iterate—are cheap.
+Data structures are the containers that give your algorithms teeth. They organize data so that the operations you care about—lookup, insert, delete, iterate—are cheap.
 
 ## Learning objectives
 - Map everyday engineering tasks to the data structure that fits best

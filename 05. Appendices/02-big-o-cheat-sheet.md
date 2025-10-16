@@ -6,14 +6,14 @@ Quick reference for common complexities, practical thresholds, and algorithm exa
 
 | Complexity | Notes | Example algorithms / operations |
 | --- | --- | --- |
-| `O(1)` constant | Independent of input size | Hash table lookup, array indexing |
-| `O(log n)` logarithmic | Each step halves problem | Binary search, heap push/pop |
-| `O(n)` linear | Visits each element once | Array scan, hashmap iteration |
-| `O(n log n)` linearithmic | Common optimal sort bound | Merge sort, heap sort, balanced BST operations |
-| `O(n²)` quadratic | Doubly nested loops | Matrix multiplication (naive), bubble sort |
-| `O(n³)` cubic | Triple nested loops | Floyd-Warshall, 3D DP |
-| `O(2^n)` exponential | Explore all subsets/choices | Naive recursion for subset problems |
-| `O(n!)` factorial | All permutations | Travelling salesman brute force |
+| **`O(1)`** constant | Independent of input size | Hash table lookup, array indexing |
+| **`O(log n)`** logarithmic | Each step halves problem | Binary search, heap push/pop |
+| **`O(n)`** linear | Visits each element once | Array scan, hashmap iteration |
+| **`O(n log n)`** linearithmic | Common optimal sort bound | Merge sort, heap sort, balanced BST operations |
+| **`O(n²)`** quadratic | Doubly nested loops | Matrix multiplication (naive), bubble sort |
+| **`O(n³)`** cubic | Triple nested loops | Floyd-Warshall, 3D DP |
+| **`O(2^n)`** exponential | Explore all subsets/choices | Naive recursion for subset problems |
+| **`O(n!)`** factorial | All permutations | Travelling salesman brute force |
 
 ## Practical limits (rule of thumb)
 

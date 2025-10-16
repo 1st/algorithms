@@ -1,6 +1,6 @@
 # 18 · Heap Variants and Priority Queues
 
-Beyond binary heaps, specialised heap variants optimise specific operations such as decrease-key or melding. Understanding their trade-offs prepares you for advanced interview questions and theoretical discussions.
+Beyond binary heaps, specialized heap variants optimize specific operations such as decrease-key or melding. Understanding their trade-offs prepares you for advanced interview questions and theoretical discussions.
 
 ## Learning objectives
 - Compare binary, binomial, Fibonacci, and pairing heaps

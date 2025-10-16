@@ -1,10 +1,10 @@
 # 05 · Math Toolkit for Algorithms
 
-Interview problems frequently lean on lightweight math—logarithms, exponent rules, combinatorics, and probability estimates. This chapter packages the essentials so you can recognise patterns quickly and avoid algebra under pressure.
+Interview problems frequently lean on lightweight math—logarithms, exponent rules, combinatorics, and probability estimates. This chapter packages the essentials so you can recognize patterns quickly and avoid algebra under pressure.
 
 ## Learning objectives
 - Convert between exponential and logarithmic forms and reason about base changes
-- Estimate combinatorial counts and recognise when to reach for `n!`, `n choose k`, or permutations
+- Estimate combinatorial counts and recognize when to reach for `n!`, `n choose k`, or permutations
 - Apply basic probability tools (independence, expectation, union bound) during algorithm analysis
 - Recall growth hierarchies (polynomial vs. exponential vs. factorial) when comparing complexities
 
@@ -28,7 +28,7 @@ Interview problems frequently lean on lightweight math—logarithms, exponent ru
 - Multiplication: `b^m * b^n = b^{m + n}`.
 - Division: `b^m / b^n = b^{m - n}`.
 - Power of a power: `(b^m)^n = b^{mn}`.
-- Big-O intuition: `n^k` (polynomial) grows much slower than `c^n` (exponential); recognise when algorithms cross these thresholds.
+- Big-O intuition: `n^k` (polynomial) grows much slower than `c^n` (exponential); recognize when algorithms cross these thresholds.
 
 ## Combinatorics cheatsheet
 - Factorial: `n! = n × (n - 1) × … × 1`. Approximate via Stirling’s formula when `n` is large: `n! ≈ sqrt(2πn) (n/e)^n`.
@@ -38,7 +38,7 @@ Interview problems frequently lean on lightweight math—logarithms, exponent ru
 
 ### Interview use cases
 - Counting distinct paths, pairings, or subsets.
-- Bounding brute-force search sizes before optimising.
+- Bounding brute-force search sizes before optimizing.
 - Estimating collision likelihood in hashing problems.
 
 > **Common pitfall:** Mixing up permutations and combinations—state whether order matters before writing a formula; interviewers listen for that signal.

@@ -3,7 +3,7 @@
 Union-Find (Disjoint Set Union, DSU) efficiently tracks connected components in a dynamic graph. It supports near-constant-time union and find operations, powering Kruskal’s MST algorithm and connectivity queries.
 
 ## Learning objectives
-- Understand the union-by-rank/size and path compression optimisations
+- Understand the union-by-rank/size and path compression optimizations
 - Implement Union-Find in Python with amortised `α(n)` complexity
 - Apply DSU to connectivity, cycle detection, and grouping problems
 - Recognise when DSU outperforms DFS/BFS for incremental connectivity
@@ -52,7 +52,7 @@ class UnionFind:
 - Grouping problems (e.g., accounts merge, friend circles).
 
 ## Interview checkpoints
-- Explain why naive union-find degenerates and how optimisations fix it.
+- Explain why naive union-find degenerates and how optimizations fix it.
 - Mention the near-constant amortised complexity (`α(n)`).
 - Show how to adapt DSU for additional metadata (component size, value aggregation).
 

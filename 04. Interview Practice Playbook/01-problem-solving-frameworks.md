@@ -14,7 +14,7 @@ Technical interviews assess far more than code—they evaluate how you frame pro
    - Ask about constraints (input size, character set, time/space limits).  
    - Clarify edge cases (empty input, duplicates, negative values).
 2. **Plan**  
-   - Brainstorm multiple approaches (brute force → optimised).  
+   - Brainstorm multiple approaches (brute force → optimized).  
    - Compare complexity; justify chosen strategy.  
    - Sketch data structures, invariants, and algorithm outline.
 3. **Code**  
@@ -70,4 +70,4 @@ Use a scrap page to jot:
 - Rehearse the Clarify → Plan → Code → Validate script until it feels natural.
 - Run through past interview questions; after each, score yourself on the evaluation rubric.
 
-Memorise the framework, use the checklists to stay organised under pressure, and adapt these habits until they become instinctive.
+Memorize the framework, use the checklists to stay organized under pressure, and adapt these habits until they become instinctive.

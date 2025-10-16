@@ -41,9 +41,9 @@ def fib_tab(n: int) -> int:
 ## DP categories
 - **1D DP:** Fibonacci, climbing stairs (`dp[i]` depends on previous few values).
 - **2D DP:** grid paths, edit distance, knapsack (`dp[i][j]`).
-- **Bitmask DP:** traveling salesman, subset problems.
+- **Bitmask DP:** traveling salesman, subset problems. State space is `O(2^n)`—keep `n` within ~20–25 to stay tractable.
 - **DP on trees:** rerooting techniques, counting paths, tree DP.
-- **DP with monotonicity:** use deque optimisation or convex hull trick.
+- **DP with monotonicity:** use deque optimization or convex hull trick.
 
 ## Example: 0/1 Knapsack
 
@@ -56,7 +56,7 @@ def knapsack(weights: list[int], values: list[int], capacity: int) -> int:
     return dp[capacity]
 ```
 
-- Space-optimised from 2D to 1D by iterating capacity descending.
+- Space-optimized from 2D to 1D by iterating capacity descending.
 
 ## When to use DP
 - Recurrence with overlapping subproblems and optimal substructure.

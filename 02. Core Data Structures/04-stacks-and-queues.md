@@ -18,7 +18,7 @@ Stacks and queues encode disciplined access patterns—last-in-first-out and fir
 | Double-ended queue | append left/right, pop left/right | `collections.deque` | `O(1)` |
 
 ### Choosing the backing store
-- `collections.deque` is a doubly linked list with block storage, optimised for append/pop operations at both ends.
+- `collections.deque` is a doubly linked list with block storage, optimized for append/pop operations at both ends.
 - Avoid using `list.pop(0)` for queues—it shifts every element and degrades performance.
 - Bounded queues can be created with `deque(maxlen=n)` to auto-drop the oldest entries.
 

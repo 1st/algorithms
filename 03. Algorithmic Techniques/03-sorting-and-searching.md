@@ -1,12 +1,12 @@
 # 03 · Sorting and Searching
 
-Sorting organises data for efficient querying; searching retrieves data quickly from structured collections. Mastering key algorithms provides a toolkit for array and list manipulation in interviews.
+Sorting organizes data for efficient querying; searching retrieves data quickly from structured collections. Mastering key algorithms provides a toolkit for array and list manipulation in interviews.
 
 ## Learning objectives
 - Compare time/space complexity and stability of common sorting algorithms
 - Choose appropriate searching techniques (binary search variants, exponential search)
 - Implement typical interview-friendly patterns (two pointers, sliding window over sorted data)
-- Recognise when to leverage library sorts vs. custom algorithms
+- Recognize when to leverage library sorts vs. custom algorithms
 
 ## Sorting algorithms overview
 
@@ -49,8 +49,8 @@ When array length unknown or unbounded, expand search interval exponentially bef
 
 ## When to sort
 - To enable binary search and two-pointer patterns.
-- To canonicalise data for hashing or comparing (e.g., anagram grouping).
-- To minimise objective functions (interval scheduling, greedy heuristics).
+- To canonicalize data for hashing or comparing (e.g., anagram grouping).
+- To minimize objective functions (interval scheduling, greedy heuristics).
 
 ## Interview checkpoints
 - Justify algorithm choice with data characteristics (size, constraints, distribution).

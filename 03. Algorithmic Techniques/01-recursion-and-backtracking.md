@@ -21,7 +21,7 @@ def factorial(n: int) -> int:
 ```
 
 ### Tail recursion vs. helper recursion
-Python lacks tail-call optimisation; convert to iterative loops when depth threatens call-stack limits.
+Python lacks tail-call optimization; convert to iterative loops when depth threatens call-stack limits.
 
 ## Backtracking template
 

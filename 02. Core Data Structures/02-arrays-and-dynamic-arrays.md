@@ -5,7 +5,7 @@ Dynamic arrays back most high-level “list” abstractions. They offer contiguo
 ## Learning objectives
 - Differentiate fixed arrays from dynamic arrays and understand resizing mechanics
 - Recall key operation complexities (indexing, insert/delete at ends vs. middle)
-- Leverage Python’s `list` effectively while recognising its underlying trade-offs
+- Leverage Python’s `list` effectively while recognizing its underlying trade-offs
 - Spot scenarios where you should reach for another structure instead
 
 ## Operations quick reference

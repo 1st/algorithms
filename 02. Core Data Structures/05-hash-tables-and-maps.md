@@ -33,6 +33,7 @@ Python uses open addressing with perturbation to spread probes across buckets. R
 - `dict` preserves insertion order (CPython 3.7+) thanks to a compact array of indices plus separate key/value storage.
 - Hashing custom objects: implement `__hash__` and `__eq__` consistently; ensure hashes remain stable for the object’s lifetime.
 - Avoid mutating keys: if you change a field influencing `__hash__`, lookups break.
+- Each entry stores the key, value, cached hash, and pointer metadata. Mention this overhead if memory pressure is part of the trade-off discussion.
 
 ```python
 def group_anagrams(words: list[str]) -> dict[tuple[int, ...], list[str]]:

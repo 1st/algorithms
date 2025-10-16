@@ -1,6 +1,6 @@
 # 01 · Introduction and Motivation
 
-Algorithms are the playbook we reach for when raw intuition is not enough. Interviews, production systems, and side projects all reward the engineer who recognises patterns quickly and turns them into repeatable steps.
+Algorithms are the playbook we reach for when raw intuition is not enough. Interviews, production systems, and side projects all reward the engineer who recognizes patterns quickly and turns them into repeatable steps.
 
 ## Learning objectives
 - Refresh what an algorithm is and how it differs from a finished program

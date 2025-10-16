@@ -53,7 +53,7 @@ Use this glossary to refresh key vocabulary and symbols used throughout the book
 
 ## K
 - **Kruskal’s algorithm:** Greedy MST algorithm using sorted edges and DSU.
-- **Knapsack problem:** DP optimisation packing items subject to weight constraints.
+- **Knapsack problem:** DP optimization packing items subject to weight constraints.
 
 ## L
 - **Level-order traversal:** BFS of a tree grouping nodes by depth.
@@ -74,7 +74,7 @@ Use this glossary to refresh key vocabulary and symbols used throughout the book
 - **Order statistic:** k-th smallest/largest element; supported by augmented trees.
 
 ## P
-- **Path compression:** DSU optimisation flattening tree height.
+- **Path compression:** DSU optimization flattening tree height.
 - **Priority queue:** Abstract data type retrieving highest-priority element quickly (often heap-backed).
 - **Probability distribution:** Function assigning likelihoods; used in randomised algorithms.
 

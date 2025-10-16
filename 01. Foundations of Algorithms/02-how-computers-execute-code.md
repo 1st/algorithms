@@ -16,9 +16,9 @@ Understanding what happens between your editor and the CPU clarifies why certain
 Each layer adds helpful abstractions while hiding details that might impact performance.
 
 ## Compilation vs. interpretation
-- **Compiled languages** (C, Rust) translate source code into machine instructions ahead of time. Result: fast startup, optimised binaries; cost: longer build times.
+- **Compiled languages** (C, Rust) translate source code into machine instructions ahead of time. Result: fast startup, optimized binaries; cost: longer build times.
 - **Interpreted languages** (CPython) execute source line by line, decoding statements at runtime. Result: fast iteration, dynamic introspection; cost: extra overhead per operation.
-- **Hybrid models** use bytecode + virtual machines (Java, JavaScript, Python via `.pyc`). Just-In-Time (JIT) compilers detect hot paths and optimise them on the fly.
+- **Hybrid models** use bytecode + virtual machines (Java, JavaScript, Python via `.pyc`). Just-In-Time (JIT) compilers detect hot paths and optimize them on the fly.
 
 ### Example: Python execution pipeline
 
@@ -34,7 +34,7 @@ print(is_even(42))
 3. **Interpreter loop:** the Python Virtual Machine (PVM) dispatches each bytecode instruction, implemented in C.
 4. **System call:** `print` eventually invokes OS-level write operations to display text.
 
-Understanding this ladder explains why loop-heavy Python code benefits from vectorised libraries (NumPy) or C extensions—they skip repeated interpreter overhead.
+Understanding this ladder explains why loop-heavy Python code benefits from vectorised libraries (NumPy) or C extensions—they skip repeated interpreter overhead. Even in an "interpreted" runtime like CPython, your source is first compiled to bytecode; the interpreter then executes that bytecode instruction by instruction.
 
 ## Memory and caches
 - CPUs operate fastest on data in **registers** and **L1/L2 caches**; fetching from RAM is slower, disk slower still.
@@ -43,8 +43,8 @@ Understanding this ladder explains why loop-heavy Python code benefits from vect
 
 ## Interview checkpoints
 - State relevant runtime characteristics when comparing algorithms (e.g., cache-friendly array vs. pointer-based list).
-- Mention how language choices influence complexity constants, especially in micro-optimisation questions.
-- Recognise when to propose lower-level optimisations (C extensions, memoisation, concurrency) and when they are premature.
+- Mention how language choices influence complexity constants, especially in micro-optimization questions.
+- Recognize when to propose lower-level optimizations (C extensions, memoisation, concurrency) and when they are premature.
 
 ## Further practice
 - Inspect bytecode with `python -m dis` to reinforce the compilation steps.

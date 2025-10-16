@@ -56,7 +56,7 @@ Graph Pathfinding  | What graph traits matter (weights, direction)?  | BFS/DFS l
 - [ ] Derive recurrence before coding; specify base cases.
 - [ ] Discuss implementation choice (top-down vs. bottom-up) and memory footprint.
 - [ ] Identify transition order (row-wise, column-wise, diagonals).
-- [ ] Consider optimisations (rolling arrays, bitmask compression, monotonic queues).
+- [ ] Consider optimizations (rolling arrays, bitmask compression, monotonic queues).
 
 **Diagram prompt:** grid with arrows showing dependency edges; highlight topological order of fills.
 

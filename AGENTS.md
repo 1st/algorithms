@@ -1,6 +1,6 @@
 # Agent Guide
 
-This document captures the conventions we (and future contributors) follow while extending the Algorithms & Data Structures book. Refer to it before adding chapters, editing prose, or reorganising folders.
+This document captures the conventions we (and future contributors) follow while extending the Algorithms & Data Structures book. Refer to it before adding chapters, editing prose, or reorganizing folders.
 
 ## Repository layout
 - Top-level chapters live in directories prefixed with a two-digit ordinal:
