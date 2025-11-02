@@ -1,67 +1,47 @@
-# 05 · Math Toolkit for Algorithms
+### Code Examples for Permutations and Combinations
 
-Interview problems frequently lean on lightweight math—logarithms, exponent rules, combinatorics, and probability estimates. This chapter packages the essentials so you can recognize patterns quickly and avoid algebra under pressure.
+Here are small code examples in Python to illustrate the difference between **permutations** and **combinations** using the `itertools` library:
 
-## Learning objectives
-- Convert between exponential and logarithmic forms and reason about base changes
-- Estimate combinatorial counts and recognize when to reach for `n!`, `n choose k`, or permutations
-- Apply basic probability tools (independence, expectation, union bound) during algorithm analysis
-- Recall growth hierarchies (polynomial vs. exponential vs. factorial) when comparing complexities
+```python
+from itertools import permutations, combinations
 
-> **Interview tip:** When stuck on complexity classification, articulate the dominant term aloud (“This loop runs `n` times, inner loop shrinks…”)—explicit narration earns partial credit even before you reach a final Big-O.
+# Sample list of items
+items = ['A', 'B', 'C']
 
-## Logarithms at a glance
-- Definition: `log_b(x)` answers “to what power must `b` be raised to get `x`?”
-- Change of base: `log_b(x) = log_k(x) / log_k(b)`—swap bases using natural or base-2 logs.
-- Power rule: `log_b(x^k) = k * log_b(x)`.
-- Product rule: `log_b(xy) = log_b(x) + log_b(y)`.
-- Common interview bases:
-  - Base 2 (`log₂`) when reasoning about binary search, heaps, and balanced trees.
-  - Base 10 (`log₁₀`) for back-of-the-envelope digit counts.
-  - Natural log (`ln`) for continuous growth analysis; interchange via change-of-base.
+# Permutations: Order matters
+print("Permutations (Order Matters):")
+for perm in permutations(items, 2):  # Choosing 2 items at a time
+    print(perm)
 
-### Quick estimates
-- `log₂(1024) = 10`, `log₂(1e6) ≈ 20`, `log₂(1e9) ≈ 30`.
-- `log₁₀(n)` ≈ number of digits `- 1`.
-
-## Exponent rules
-- Multiplication: `b^m * b^n = b^{m + n}`.
-- Division: `b^m / b^n = b^{m - n}`.
-- Power of a power: `(b^m)^n = b^{mn}`.
-- Big-O intuition: `n^k` (polynomial) grows much slower than `c^n` (exponential); recognize when algorithms cross these thresholds.
-
-## Combinatorics cheatsheet
-- Factorial: `n! = n × (n - 1) × … × 1`. Approximate via Stirling’s formula when `n` is large: `n! ≈ sqrt(2πn) (n/e)^n`.
-- Permutations (ordered selections): `P(n, k) = n! / (n - k)!`.
-- Combinations (unordered selections): `C(n, k) = n! / (k!(n - k)!)`.
-- Binomial identity: `Σ_{k=0}^n C(n, k) = 2^n`.
-
-### Interview use cases
-- Counting distinct paths, pairings, or subsets.
-- Bounding brute-force search sizes before optimizing.
-- Estimating collision likelihood in hashing problems.
-
-> **Common pitfall:** Mixing up permutations and combinations—state whether order matters before writing a formula; interviewers listen for that signal.
-
-## Probability snippets
-- **Independence:** `P(A ∩ B) = P(A) * P(B)`.
-- **Union bound:** `P(A ∪ B) ≤ P(A) + P(B)`—handy for quick upper bounds.
-- **Complement rule:** `P(not A) = 1 - P(A)`.
-- **Linearity of expectation:** `E[X + Y] = E[X] + E[Y]` even if `X` and `Y` are dependent—useful in hashing and randomised algorithms.
-- **Geometric distribution:** expected trials until first success with probability `p` is `1/p`.
-
-## Growth hierarchy (from slowest to fastest)
+# Combinations: Order does not matter
+print("\nCombinations (Order Does Not Matter):")
+for comb in combinations(items, 2):  # Choosing 2 items at a time
+    print(comb)
 ```
-O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2^n) < O(n!)
+
+### Output:
 ```
-Remember: algorithms with exponential or factorial behaviour become infeasible beyond small inputs; look for pruning or dynamic programming if you encounter them.
+Permutations (Order Matters):
+('A', 'B')
+('A', 'C')
+('B', 'A')
+('B', 'C')
+('C', 'A')
+('C', 'B')
 
-## Interview checkpoints
-- Explain why binary search runs in `O(log n)` by relating each iteration to halving the search space.
-- When counting possibilities, state whether order matters, then choose permutations vs. combinations.
-- Use linearity of expectation or union bounds to estimate collision probabilities in hash or randomised structures.
+Combinations (Order Does Not Matter):
+('A', 'B')
+('A', 'C')
+('B', 'C')
+```
 
-## Further practice
-- Work through classic counting problems (e.g., number of valid parentheses strings) and identify the combinatorial formula.
-- Estimate probabilities for simple randomised algorithms (reservoir sampling, randomized quicksort pivots).
-- Keep this chapter open while solving practice problems to reinforce pattern recognition.
+### Explanation:
+1. **Permutations (`permutations`)**:
+   - The order of items is important, so `('A', 'B')` is different from `('B', 'A')`.
+   - Result: \( P(3, 2) = 3 \times 2 = 6 \) ordered pairs.
+
+2. **Combinations (`combinations`)**:
+   - The order of items does not matter, so `('A', 'B')` is treated the same as `('B', 'A')`.
+   - Result: \( C(3, 2) = \frac{3!}{2!(3-2)!} = 3 \) unique pairs.
+
+This demonstrates the key difference: whether or not the order of selection is significant.
